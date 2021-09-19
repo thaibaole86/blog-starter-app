@@ -9,15 +9,14 @@ sections:
 - type: document
   path: pages/posts
   label: Post
-  match: "**/*"
 - type: directory
   path: assets/img
   label: Main
   create: all
   match: "**/*"
-  new_doc_ext: ".md"
-upload_dir: uploads
-public_path: "/uploads"
+  new_doc_ext: md
+upload_dir: public/assets/img
+public_path: "/assets"
 front_matter_path: ''
 use_front_matter_path: false
 file_template: ":filename:"
